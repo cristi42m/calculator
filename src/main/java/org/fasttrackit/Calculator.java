@@ -7,19 +7,6 @@ public class Calculator {
 
 
 
-    public Calculator(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-
-
-
 
 
     public int add (int x, int y){
@@ -48,5 +35,23 @@ public class Calculator {
     public float substract (float x, float y){
         return x - y;
     }
+
+
+
+
+    public Calculator(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+
+
 
 }
